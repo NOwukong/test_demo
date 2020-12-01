@@ -1,5 +1,5 @@
 from datetime import datetime
-from hogwarts_study import random
+from hogwarts_lg4.hogwarts_study import random
 
 
 def gen_trans_id(date=None):
