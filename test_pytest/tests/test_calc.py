@@ -19,7 +19,7 @@ class TestCalc:
     @pytest.mark.parametrize('a, b, c', [
         [1, 2, 2],
         [-1, -1, 1],
-        [1, -1, 1]
+        [1, -1, -1]
     ])
     def test_mul(self, a, b, c):
         assert self.calc.mul(a, b) == c
